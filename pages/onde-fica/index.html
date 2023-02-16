@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Localização | Residencial Luiz Simão</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="height=device-height, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/src/media/svg/Logo.svg">
+    <meta name="description"
+        content="Alquiler en Lagoiña, Casas y Departamentos en Brasil / Aluguel de temporada, Praia da Lagoinha  - Florianópolis-SC">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="../../src/styles/main.css">
+    <link rel="stylesheet" href="../../src/styles/location.css">
+    <script src="../../src/scripts/main.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="flex-page">
+        <div class="header">
+            <div class="navbar">
+                <div class="links">
+                    <div class="section-a">
+                        <button onclick="location.href='../home/'" class="nav-links logo-b"><img
+                                src="../../src/media/svg/Logo.svg" alt="Logo"></button>
+                        <button onclick="location.href='../casas/'" class="nav-links full">Casas</button>
+                        <button onclick="location.href='../aptos/'" class="nav-links full">Apartamentos</button>
+                    </div>
+                    <div class="section-b">
+                        <button onclick="location.href='#'" class="active nav-links full">Localização</button>
+                        <button onclick="location.href='../contato/'" class="nav-links full">Contato</button>
+                        <button id="instagram" id="mob-hide" alt="instagram"
+                            onclick="window.open('https://www.instagram.com/residencialluizsimao','_blank')"
+                            class="nav-links social mob-hide">
+                            <svg width="24" height="24" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5 11.0014C5 7.6869 7.6869 5 11.0014 5H21.0014C24.3158 5 27.0027 7.6869 27.0027 11.0014V21.0014C27.0027 24.3158 24.3158 27.0027 21.0014 27.0027H11.0014C7.6869 27.0027 5 24.3158 5 21.0014V11.0014ZM11.0016 7.00274C8.79318 7.00274 7.00293 8.79299 7.00293 11.0014V21.0014C7.00293 23.2098 8.79318 25 11.0016 25H21.0016C23.2099 25 25.0002 23.2098 25.0002 21.0014V11.0014C25.0002 8.79299 23.2099 7.00274 21.0016 7.00274H11.0016ZM16.7786 11.0108C15.738 10.8565 14.6753 11.0343 13.7415 11.5188C12.8078 12.0033 12.0506 12.7699 11.5776 13.7095C11.1047 14.6492 10.94 15.7141 11.1072 16.7527C11.2743 17.7913 11.7647 18.7508 12.5085 19.4946C13.2524 20.2385 14.2118 20.7288 15.2505 20.896C16.2891 21.0631 17.3539 20.8985 18.2936 20.4255C19.2332 19.9526 19.9998 19.1953 20.4844 18.2616C20.9689 17.3278 21.1466 16.2651 20.9923 15.2245C20.8349 14.163 20.3403 13.1804 19.5815 12.4216C18.8228 11.6628 17.8401 11.1682 16.7786 11.0108ZM20.5002 10.5014C20.5002 9.94833 20.9485 9.5 21.5016 9.5H21.5116C22.0646 9.5 22.5129 9.94833 22.5129 10.5014C22.5129 11.0544 22.0646 11.5027 21.5116 11.5027H21.5016C20.9485 11.5027 20.5002 11.0544 20.5002 10.5014ZM14.6639 13.2965C15.2238 13.006 15.861 12.8994 16.4849 12.9919C17.1213 13.0863 17.7105 13.3828 18.1654 13.8378C18.6203 14.2927 18.9168 14.8819 19.0112 15.5183C19.1037 16.1422 18.9972 16.7793 18.7067 17.3392C18.4162 17.899 17.9566 18.353 17.3932 18.6366C16.8298 18.9202 16.1913 19.0189 15.5686 18.9187C14.9459 18.8185 14.3707 18.5245 13.9247 18.0785C13.4787 17.6325 13.1847 17.0572 13.0845 16.4345C12.9843 15.8118 13.083 15.1733 13.3665 14.61C13.6501 14.0466 14.1041 13.5869 14.6639 13.2965Z"
+                                    fill="black" />
+                            </svg>
+                        </button>
+                        <button id="facebook" alt="facebook"
+                            onclick="window.open('https://www.facebook.com/residencialluizsimao','_blank')"
+                            class="nav-links social mob-hide">
+                            <svg width="24" height="24" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14.3149 6.75736C15.403 5.63214 16.8788 5 18.4176 5H21.3187C21.8528 5 22.2858 5.44772 22.2858 6V10C22.2858 10.5523 21.8528 11 21.3187 11L18.4176 11V13H21.3187C21.6165 13 21.8977 13.1419 22.081 13.3846C22.2642 13.6273 22.3291 13.9438 22.2569 14.2425L21.2899 18.2425C21.1822 18.6877 20.7955 19 20.3517 19H18.4176V26C18.4176 26.5523 17.9847 27 17.4506 27H13.5825C13.0484 27 12.6155 26.5523 12.6155 26V19H10.6814C10.1473 19 9.71436 18.5523 9.71436 18V14C9.71436 13.4477 10.1473 13 10.6814 13H12.6155V11C12.6155 9.4087 13.2268 7.88258 14.3149 6.75736ZM18.4176 7C17.3918 7 16.4079 7.42143 15.6825 8.17157C14.9571 8.92172 14.5495 9.93913 14.5495 11V14C14.5495 14.5523 14.1166 15 13.5825 15H11.6484V17H13.5825C14.1166 17 14.5495 17.4477 14.5495 18V25H16.4836V18C16.4836 17.4477 16.9165 17 17.4506 17H19.5967L20.0802 15H17.4506C16.9165 15 16.4836 14.5523 16.4836 14V11C16.4836 10.4696 16.6873 9.96086 17.0501 9.58579C17.4128 9.21071 17.9047 9 18.4176 9H20.3517V7H18.4176Z"
+                                    fill="black" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="mob-menu">
+                        <button onclick="openMenu()" class="menu nav-links social" alt="menu">
+                            <span id="close-icon" class="material-symbols-rounded">close</span>
+                            <span id="open-icon" class="material-symbols-rounded">menu</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mob-nav">
+            <button onclick="location.href='../casas#casa-1'">Casa 1</button>
+            <button onclick="location.href='../casas#casa-2'">Casa 2</button>
+            <button onclick="location.href='../casas#casa-3'">Casa 3</button>
+            <button onclick="location.href='../aptos/'">Apartamentos</button>
+            <button onclick="location.href='#'" class="active-mob">Localização</button>
+            <button onclick="location.href='../contato/'">Contato</button>
+        </div>
+        <div class="maps">
+            <div class="maps-box">
+                <!-- <iframe title="Localização"
+                src="https://maps.google.com/maps?width=580&amp;height=580&amp;hl=en&amp;q=Servid%C3%A3o%20Luiz%20Sim%C3%A3o%20dos%20Santos,%2033%20Florian%C3%B3polis+(Localiza%C3%A7%C3%A3o)&amp;t=k&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> -->
+                <!-- <iframe frameborder="0" scrolling="no"
+                    src="https://www.openstreetmap.org/export/embed.html?zoom=1&bbox=-48.424515724182136%2C-27.391866450106694%2C-48.41984868049622%2C-27.388994345960832&amp;layer=mapnik&amp;marker=-27.39043041426853%2C-48.42218220233917"></iframe> -->
+                <div class="gmap">
+                    <div id="map">
+                        <iframe id="map-frame" onload=""
+                            src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Residencial%20Luiz%20Sim%C3%A3o%20+(Residencial%20Luiz%20Sim%C3%A3o)&amp;t=K&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                    <div id="pano">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!4v1676518503997!6m8!1m7!1s3T6qy-InfiOM7_34ilvNsQ!2m2!1d-27.39011937533464!2d-48.42238876243179!3f143.885422645412!4f-3.3897048226669995!5f0.7820865974627469"
+                            style="border:0;" allowfullscreen="false" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-box">
+                <div class="info-box">
+                    <h3 class="loc-text">O residencial</h3>
+                    <p style="text-indent: 25px;">O Residencial Luiz Simão está localizado no extremo Norte da Ilha - a
+                        50 metros da Praia da Lagoinha.
+                        Para chegar até ao Residencial Luiz Simão pegar a SC-401 em direção às Praias do Norte até o
+                        elevado de Canasvieiras passando a entrar à direita e percorrer cerca de 6 km até um segundo
+                        trevo pequeno (em frente ao Supermercado Forte). Neste ponto, virar à direita e seguir por mais
+                        600 mt até (Mercado Bam Bam). Em seguida, de acordo com as placas indicativas (direção Lagoinha)
+                        virar à esquerda. Residencial Luiz Simão fica a 1km deste ponto. Tudo por asfalto e com ônibus à
+                        Florianópolis e outras praias, na porta do Residencial Luiz Simão.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
